@@ -72,7 +72,7 @@ app.post('/api/chat', async (req, res) => {
     if (!process.env.GEMINI_API_KEY) {
       return res.status(500).json({ error: 'API Key არ არის მითითებული Environment Variables-ში.' });
     }
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
     const result = await model.generateContent(message);
     const response = await result.response;
     res.json({ reply: response.text() });

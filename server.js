@@ -27,7 +27,6 @@ app.get('/', (req, res) => {
   padding: 12px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
     .msg { margin: 8px 0; padding: 8px 12px; border-radius: 6px; max-width: 80%; }
     .user { background: #007bff; align-self: flex-end; margin-left: auto; }

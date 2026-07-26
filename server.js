@@ -73,7 +73,23 @@ app.post('/api/chat', async (req, res) => {
       return res.status(500).json({ error: 'API Key არ არის მითითებული Environment Variables-ში.' });
     }
     const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
-    const result = await model.generateContent(message);
+    const const prompt = `
+ცოდნა ბარათაულზე:
+
+- ბარათაული მდებარეობს აჭარის ავტონომიურ რესპუბლიკაში, შუახევის მუნიციპალიტეტში.
+- ეს AI ასისტენტი შექმნილია მხოლოდ ბარათაულთან დაკავშირებული კითხვებისთვის.
+- თუ კითხვა ბარათაულს არ ეხება, უპასუხე:
+"მე ვარ ბარათაულის AI ასისტენტი და მხოლოდ ბარათაულთან დაკავშირებულ კითხვებზე ვპასუხობ."
+
+წესები:
+1. არასოდეს მოიგონო ინფორმაცია.
+2. თუ პასუხი არ იცი, დაწერე: "ამ ინფორმაციას ჯერ არ ვფლობ."
+
+მომხმარებლის კითხვა:
+${message}
+`;
+
+const result = await model.generateContent(prompt);
     const response = await result.response;
     res.json({ reply: response.text() });
   } catch (error) {

@@ -40,6 +40,15 @@ app.get('/', (req, res) => {
     async function sendMsg() {
       const input = document.getElementById('userInput');
       const chat = document.getElementById('chat');
+      chat.innerHTML = `
+<div class="msg bot">
+👋 გამარჯობა!
+
+მე ვარ ბარათაულის AI ასისტენტი.
+
+მკითხე ბარათაულის შესახებ ყველაფერი.
+</div>
+`;
       const msg = input.value.trim();
       if (!msg) return;
 

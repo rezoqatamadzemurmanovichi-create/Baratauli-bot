@@ -30,7 +30,11 @@ app.get('/', (req, res) => {
 </head>
 <body>
   <h2>ბარათაული ბოტი 🤖</h2>
-  <div id="chat"></div>
+  <di<div id="chat">
+  <div class="msg bot">
+    👋 გამარჯობა! მე ვარ ბარათაულის AI ასისტენტი. მკითხე ბარათაულის შესახებ ყველაფერი.
+  </div>
+</div>
   <div class="input-area">
     <input type="text" id="userInput" placeholder="ჩაწერე ტექსტი...">
     <button onclick="sendMsg()">გაგზავნა</button>

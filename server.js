@@ -1,4 +1,4 @@
-7const express = require('express');
+const express = require('express');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 require('dotenv').config();
 

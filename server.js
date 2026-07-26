@@ -73,7 +73,7 @@ app.post('/api/chat', async (req, res) => {
       return res.status(500).json({ error: 'API Key არ არის მითითებული Environment Variables-ში.' });
     }
     const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
-    const const prompt = `
+    const prompt = `
 ცოდნა ბარათაულზე:
 
 - ბარათაული მდებარეობს აჭარის ავტონომიურ რესპუბლიკაში, შუახევის მუნიციპალიტეტში.

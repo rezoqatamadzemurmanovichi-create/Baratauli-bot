@@ -19,7 +19,16 @@ app.get('/', (req, res) => {
   <title>Baratauli Bot</title>
   <style>
     body { font-family: sans-serif; background: #111; color: white; margin: 0; padding: 20px; height: 100dvh; box-sizing: border-box; display: flex; flex-direction: column; overflow: hidden; }
-    #chat { flex: 1; min-height: 0; overflow-y: auto; border: 1px solid #444; padding: 12px; display: flex; flex-direction: column; }
+      #chat {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  border: 1px solid #444;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
     .msg { margin: 8px 0; padding: 8px 12px; border-radius: 6px; max-width: 80%; }
     .user { background: #007bff; align-self: flex-end; margin-left: auto; }
     .bot { background: #222; align-self: flex-start; }

@@ -18,12 +18,12 @@ app.get('/', (req, res) => {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Baratauli Bot</title>
   <style>
-    body { font-family: sans-serif; background: #111; color: white; margin: 0; padding: 20px; height: 100vh; box-sizing: border-box; display: flex; flex-direction: column; }
+    body { font-family: sans-serif; background: #111; color: white; margin: 0; padding: 20px; height: 100dvh; box-sizing: border-box; display: flex; flex-direction: column; overflow: hidden; }
     #chat { flex: 1; min-height: 0; overflow-y: auto; border: 1px solid #444; padding: 12px; display: flex; flex-direction: column; }
     .msg { margin: 8px 0; padding: 8px 12px; border-radius: 6px; max-width: 80%; }
     .user { background: #007bff; align-self: flex-end; margin-left: auto; }
     .bot { background: #222; align-self: flex-start; }
-    .input-area { display: flex; gap: 8px; }
+    .input-area { .input-area { display: flex; gap: 8px; flex-shrink: 0; padding-top: 10px; background: #111; }
     input { flex: 1; padding: 12px; border-radius: 6px; border: 1px solid #444; background: #222; color: white; }
     button { padding: 12px 20px; border-radius: 6px; border: none; background: #28a745; color: white; font-weight: bold; cursor: pointer; }
   </style>

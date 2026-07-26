@@ -74,6 +74,12 @@ app.post('/api/chat', async (req, res) => {
     }
     const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
     const prompt = `
+    საოჯახო სასტუმრო
+
+- ბარათაულში ფუნქციონირებს საოჯახო სასტუმრო „პირველი მერცხალი“.
+- WhatsApp: +995 577 17 64 02
+- Facebook გვერდი: Village Baratauli - სოფელი ბარათაული.
+- წინასწარი დაჯავშნა შესაძლებელია WhatsApp-ზე.
     შენ ხარ ბარათაულის AI ასისტენტი.
 
 შენი მიზანია მომხმარებლებს მიაწოდო ზუსტი ინფორმაცია სოფელ ბარათაულზე.

@@ -220,6 +220,20 @@ app.post('/api/chat', async (req, res) => {
     }
     const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
     const prompt = `
+    📸 ბარათაულის ფოტოებისა და ვიდეოების გაზიარება
+
+თუ გაქვთ ბარათაულში გადაღებული ლამაზი ფოტოები ან ვიდეოები, გამოგვიგზავნეთ.
+
+თქვენი თანხმობით, გადამოწმების შემდეგ, ისინი შეიძლება გამოქვეყნდეს ბარათაულის ოფიციალურ Facebook გვერდზე, რათა უფრო მეტმა ადამიანმა გაიცნოს ჩვენი ულამაზესი სოფელი.
+
+გმადლობთ მხარდაჭერისთვის!
+📸 Share Your Photos and Videos
+
+If you have beautiful photos or videos taken in Baratauli, please send them to us.
+
+With your permission, and after review, they may be published on the official Baratauli Facebook page to help more people discover our beautiful village.
+
+Thank you for your support!
     🚐 ტრანსპორტი
 
 ბარათაულსა და ბათუმს შორის ყოველდღიურად მოძრაობს მარშრუტკა.

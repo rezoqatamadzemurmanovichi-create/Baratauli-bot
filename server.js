@@ -87,18 +87,133 @@ app.post('/api/chat', async (req, res) => {
   try {
     const { message } = req.body;
     if (
-  message.toLowerCase().includes("ამინდი") ||
-  message.toLowerCase().includes("weather")
+  message.toLowerCase().includes('ამინდი') ||
+  message.toLowerCase().includes('ტემპერატურა') ||
+  message.toLowerCase().includes('პროგნოზი') ||
+  message.toLowerCase().includes('მზის ამოსვლა') ||
+  message.toLowerCase().includes('მზის ჩასვლა') ||
+  message.toLowerCase().includes('მთვარის ამოსვლა') ||
+  message.toLowerCase().includes('მთვარის ჩასვლა') ||
+  message.toLowerCase().includes('weather')
 ) {
-  const weather = await fetch(
-    "https://api.open-meteo.com/v1/forecast?latitude=41.6758&longitude=42.2028&current=temperature_2m,weather_code"
+  const latitude = 41.6758;
+  const longitude = 42.2028;
+
+  const weatherResponse = await fetch(
+    `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}` +
+    `&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m` +
+    `&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset` +
+    `&timezone=Asia%2FTbilisi&forecast_days=7`
   );
 
-  const data = await weather.json();
+  if (!weatherResponse.ok) {
+    return res.status(500).json({
+      error: 'ამინდის მონაცემების მიღება ვერ მოხერხდა.'
+    });
+  }
 
-  return res.json({
-    reply: `🌤️ ბარათაულში ამჟამინდელი ტემპერატურაა ${data.current.temperature_2m}°C.`
-  });
+  const data = await weatherResponse.json();
+
+  const weatherNames = {
+    0: 'მოწმენდილი ცა ☀️',
+    1: 'უმეტესად მოწმენდილი 🌤️',
+    2: 'ნაწილობრივ მოღრუბლული ⛅',
+    3: 'მოღრუბლული ☁️',
+    45: 'ნისლი 🌫️',
+    48: 'ყინვიანი ნისლი 🌫️',
+    51: 'მსუბუქი ჟინჟღლი 🌦️',
+    53: 'ჟინჟღლი 🌦️',
+    55: 'ძლიერი ჟინჟღლი 🌧️',
+    61: 'მსუბუქი წვიმა 🌦️',
+    63: 'წვიმა 🌧️',
+    65: 'ძლიერი წვიმა 🌧️',
+    71: 'მსუბუქი თოვა 🌨️',
+    73: 'თოვა ❄️',
+    75: 'ძლიერი თოვა ❄️',
+    77: 'თოვლის მარცვლები 🌨️',
+    80: 'ხანმოკლე მსუბუქი წვიმა 🌦️',
+    81: 'ხანმოკლე წვიმა 🌧️',
+    82: 'ძლიერი თავსხმა ⛈️',
+    85: 'ხანმოკლე თოვა 🌨️',
+    86: 'ძლიერი ხანმოკლე თოვა ❄️',
+    95: 'ჭექა-ქუხილი ⛈️',
+    96: 'ჭექა-ქუხილი და სეტყვა ⛈️',
+    99: 'ძლიერი ჭექა-ქუხილი და სეტყვა ⛈️'
+  };
+
+  const dayNames = [
+    'კვირა',
+    'ორშაბათი',
+    'სამშაბათი',
+    'ოთხშაბათი',
+    'ხუთშაბათი',
+    'პარასკევი',
+    'შაბათი'
+  ];
+
+  const formatTime = (value) => {
+    if (!value) return 'მონაცემი არ არის';
+
+    return new Intl.DateTimeFormat('ka-GE', {
+      timeZone: 'Asia/Tbilisi',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false
+    }).format(new Date(value));
+  };
+
+  const formatMoonTime = (value) => {
+    if (!(value instanceof Date) || Number.isNaN(value.getTime())) {
+      return 'ამ დღეს არ ფიქსირდება';
+    }
+
+    return new Intl.DateTimeFormat('ka-GE', {
+      timeZone: 'Asia/Tbilisi',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false
+    }).format(value);
+  };
+
+  const forecast = data.daily.time.map((dateString, index) => {
+    const date = new Date(`${dateString}T12:00:00+04:00`);
+    const dayName = dayNames[date.getDay()];
+
+    const moonTimes = SunCalc.getMoonTimes(
+      date,
+      latitude,
+      longitude
+    );
+
+    const condition =
+      weatherNames[data.daily.weather_code[index]] ||
+      'ამინდის მდგომარეობა უცნობია';
+
+    return (
+      `\n📅 ${dayName}, ${dateString}\n` +
+      `🌤️ ${condition}\n` +
+      `🌡️ ${data.daily.temperature_2m_min[index]}°C — ${data.daily.temperature_2m_max[index]}°C\n` +
+      `🌧️ წვიმის ალბათობა: ${data.daily.precipitation_probability_max[index] ?? 0}%\n` +
+      `🌅 მზის ამოსვლა: ${formatTime(data.daily.sunrise[index])}\n` +
+      `🌇 მზის ჩასვლა: ${formatTime(data.daily.sunset[index])}\n` +
+      `🌙 მთვარის ამოსვლა: ${formatMoonTime(moonTimes.rise)}\n` +
+      `🌘 მთვარის ჩასვლა: ${formatMoonTime(moonTimes.set)}`
+    );
+  }).join('\n');
+
+  const currentCondition =
+    weatherNames[data.current.weather_code] ||
+    'ამინდის მდგომარეობა უცნობია';
+
+  const reply =
+    `📍 ბარათაულის ამინდი\n\n` +
+    `🌤️ მდგომარეობა: ${currentCondition}\n` +
+    `🌡️ ტემპერატურა: ${data.current.temperature_2m}°C\n` +
+    `🤗 შეგრძნებით: ${data.current.apparent_temperature}°C\n` +
+    `💨 ქარი: ${data.current.wind_speed_10m} კმ/სთ\n\n` +
+    `📆 7-დღიანი პროგნოზი:\n${forecast}`;
+
+  return res.json({ reply });
 }
     if (!process.env.GEMINI_API_KEY) {
       return res.status(500).json({ error: 'API Key არ არის მითითებული Environment Variables-ში.' });

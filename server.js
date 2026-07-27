@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
     .msg { margin: 8px 0; padding: 8px 12px; border-radius: 6px; max-width: 100%; }
     .user { background: #007bff; align-self: flex-end; margin-left: auto; }
     .bot { background: #222; align-self: flex-start; }
-    .input-area { .input-area { display: flex; gap: 8px; flex-shrink: 0; padding-top: 10px; background: #111; }
+    . .input-area { position: fixed; bottom: 0; left: 0; right: 0; display: flex; gap: 8px; padding: 10px; background: #111; box-sizing: border-box; }
     input { flex: 1; padding: 12px; border-radius: 6px; border: 1px solid #444; background: #222; color: white; }
     button { padding: 12px 20px; border-radius: 6px; border: none; background: #28a745; color: white; font-weight: bold; cursor: pointer; }
   </style>

@@ -220,6 +220,19 @@ app.post('/api/chat', async (req, res) => {
     }
     const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
     const prompt = `
+    ამირან მამალაძე — ბარათაულის ქართველი გმირია. იგი 2008 წლის რუსეთ-საქართველოს ომის დროს დაიღუპა სამშობლოს დაცვისას.
+
+თუ მომხმარებელი კითხულობს:
+- ვინ არის ამირან მამალაძე?
+- ბარათაულის გმირი
+- 2008 წლის ომის გმირი
+
+უპასუხე:
+
+„ამირან მამალაძე არის ბარათაულის ქართველი გმირი, რომელიც 2008 წლის რუსეთ-საქართველოს ომის დროს დაიღუპა სამშობლოს დაცვისას. ბარათაული ამაყობს მისი ხსოვნით და პატივს მიაგებს მის გმირობას.“
+If the user asks about Amiran Mamaladze, answer:
+
+"Amiran Mamaladze is a Georgian hero from Baratauli who lost his life during the 2008 Russia–Georgia War while defending his homeland. The people of Baratauli honor his memory and sacrifice."
     - პასუხი იყოს მოკლე, გასაგები და მაქსიმუმ 3-5 წინადადება, თუ მომხმარებელი დეტალურ პასუხს არ ითხოვს.
     ბარათაულისა და მისი შემოგარენის ტყეებში გავრცელებულია სხვადასხვა სახეობის გარეული ცხოველი, მათ შორის:
 

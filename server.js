@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
   display: flex;
   flex-direction: column;
 }
-    .msg { margin: 8px 0; padding: 8px 12px; border-radius: 6px; max-width: 80%; }
+    .msg { margin: 8px 0; padding: 8px 12px; border-radius: 6px; max-width: 100%; }
     .user { background: #007bff; align-self: flex-end; margin-left: auto; }
     .bot { background: #222; align-self: flex-start; }
     .input-area { .input-area { display: flex; gap: 8px; flex-shrink: 0; padding-top: 10px; background: #111; }

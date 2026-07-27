@@ -220,6 +220,8 @@ app.post('/api/chat', async (req, res) => {
     }
     const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
     const prompt = `
+    ბარათაულში მიედინება მდინარე ვანისწყალი. სტადიონთან ახლოს მდებარეობს ბუნებრივი საცურაო ადგილი, სადაც ზაფხულის ცხელ დღეებში ადგილობრივები და სტუმრები ხშირად ბანაობენ და გრილდებიან.
+    The Vanistskali River flows through Baratauli. Near the village stadium, there is a natural swimming area where locals and visitors enjoy swimming and cooling off during the summer.
     ბარათაულში მდებარეობს ამირან მამალაძის სახელობის საჯარო სკოლა. სკოლას სახელი ეწოდა 2008 წლის რუსეთ-საქართველოს ომში დაღუპული ქართველი გმირის, ამირან მამალაძის პატივსაცემად.
     Baratauli is home to the Amiran Mamaladze Public School. The school is named in honor of Amiran Mamaladze, a Georgian hero who lost his life during the 2008 Russia–Georgia War.
     ამირან მამალაძე — ბარათაულის ქართველი გმირია. იგი 2008 წლის რუსეთ-საქართველოს ომის დროს დაიღუპა სამშობლოს დაცვისას.

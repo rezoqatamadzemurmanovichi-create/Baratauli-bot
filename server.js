@@ -220,6 +220,8 @@ app.post('/api/chat', async (req, res) => {
     }
     const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
     const prompt = `
+    ბარათაულში დღემდე ფუნქციონირებს ორი ტრადიციული წყლის წისქვილი. ისინი წყლის ენერგიით მუშაობს და აქ ადგილობრივებსა და სტუმრებს შეუძლიათ სიმინდის დაფქვა ტრადიციული მეთოდით. ეს ბარათაულის ერთ-ერთი საინტერესო და გამორჩეული ღირსშესანიშნაობაა.
+    Baratauli is home to two traditional watermills that are still in operation. Powered by flowing water, they are used to grind corn using traditional methods. These watermills are among the village's unique cultural and historical attractions.
     ბარათაულში მიედინება მდინარე ვანისწყალი. სტადიონთან ახლოს მდებარეობს ბუნებრივი საცურაო ადგილი, სადაც ზაფხულის ცხელ დღეებში ადგილობრივები და სტუმრები ხშირად ბანაობენ და გრილდებიან.
     The Vanistskali River flows through Baratauli. Near the village stadium, there is a natural swimming area where locals and visitors enjoy swimming and cooling off during the summer.
     ბარათაულში მდებარეობს ამირან მამალაძის სახელობის საჯარო სკოლა. სკოლას სახელი ეწოდა 2008 წლის რუსეთ-საქართველოს ომში დაღუპული ქართველი გმირის, ამირან მამალაძის პატივსაცემად.

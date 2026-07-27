@@ -220,6 +220,8 @@ app.post('/api/chat', async (req, res) => {
     }
     const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
     const prompt = `
+    ბარათაულში მდებარეობს ამირან მამალაძის სახელობის საჯარო სკოლა. სკოლას სახელი ეწოდა 2008 წლის რუსეთ-საქართველოს ომში დაღუპული ქართველი გმირის, ამირან მამალაძის პატივსაცემად.
+    Baratauli is home to the Amiran Mamaladze Public School. The school is named in honor of Amiran Mamaladze, a Georgian hero who lost his life during the 2008 Russia–Georgia War.
     ამირან მამალაძე — ბარათაულის ქართველი გმირია. იგი 2008 წლის რუსეთ-საქართველოს ომის დროს დაიღუპა სამშობლოს დაცვისას.
 
 თუ მომხმარებელი კითხულობს:
@@ -299,6 +301,20 @@ If the user asks about Amiran Mamaladze, answer:
 - სოფელში არის წაბლისა და კაკლის ხეები.
 - ბარათაული იდეალურია ეკოტურიზმისა და ბუნებაში დასვენებისთვის.
 - სოფელში შესაძლებელია ლაშქრობა და ბუნების დათვალიერება.
+რატომ უნდა ვესტუმრო ბარათაულს?
+
+ბარათაული გამორჩეულია თავისი ულამაზესი ბუნებით, სუფთა ჰაერითა და სიმშვიდით. სოფელი მთლიანად ბუნებაშია ჩაფლული და იდეალური ადგილია მათთვის, ვისაც ქალაქის ხმაურისგან დასვენება სურს.
+
+ბარათაულში თითქმის ყველა კუთხეში შეხვდებით ცივ, სუფთა სასმელ წყაროებს. ზაფხულში სოფელი მდიდარია სხვადასხვა ხილით — ბალი, ჟოლო, ვაშლი, მსხალი, ქლიავი და სხვა სეზონური ხილით.
+
+სტუმრებს შეუძლიათ დატკბნენ მთის ხედებით, ბუნებაში სეირნობით, ადგილობრივი სტუმართმოყვარეობითა და მშვიდი გარემოთი.
+Why should I visit Baratauli?
+
+Baratauli is surrounded by beautiful nature, fresh mountain air, and a peaceful atmosphere. It is an ideal destination for visitors looking to relax away from busy city life.
+
+The village has many natural cold spring water sources. During summer, visitors can enjoy seasonal fruits such as cherries, raspberries, apples, pears, plums, and more.
+
+Baratauli offers beautiful mountain scenery, peaceful walks in nature, and warm local hospitality.
 
 წესები:
 

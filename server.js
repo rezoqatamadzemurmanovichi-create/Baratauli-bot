@@ -86,6 +86,20 @@ fixHeight();
 app.post('/api/chat', async (req, res) => {
   try {
     const { message } = req.body;
+    if (
+  message.toLowerCase().includes("ამინდი") ||
+  message.toLowerCase().includes("weather")
+) {
+  const weather = await fetch(
+    "https://api.open-meteo.com/v1/forecast?latitude=41.6758&longitude=42.2028&current=temperature_2m,weather_code"
+  );
+
+  const data = await weather.json();
+
+  return res.json({
+    reply: `🌤️ ბარათაულში ამჟამინდელი ტემპერატურაა ${data.current.temperature_2m}°C.`
+  });
+}
     if (!process.env.GEMINI_API_KEY) {
       return res.status(500).json({ error: 'API Key არ არის მითითებული Environment Variables-ში.' });
     }

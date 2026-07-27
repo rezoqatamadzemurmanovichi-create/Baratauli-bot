@@ -220,6 +220,54 @@ app.post('/api/chat', async (req, res) => {
     }
     const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
     const prompt = `
+    🚐 ტრანსპორტი
+
+ბარათაულსა და ბათუმს შორის ყოველდღიურად მოძრაობს მარშრუტკა.
+
+📍 ბათუმიდან გამგზავრება:
+ძველი ბათუმის ავტოსადგურიდან (23-ე საჯარო სკოლასთან ახლოს).
+
+გამგზავრების დრო:
+• 11:00
+• 15:00
+
+📍 ბარათაულიდან გამგზავრება:
+• 08:00
+• 14:00
+
+მძღოლების საკონტაქტო ნომრები:
+
+• რეზო ქათამაძე – +995 599 126 424
+• ზებური ტარიელაძე – +995 557 986 263
+• ზურაბ ქათამაძე – +995 593 591 590
+
+⚠️ განრიგი და საკონტაქტო ნომრები შეიძლება დროთა განმავლობაში შეიცვალოს, ამიტომ მგზავრობამდე სასურველია მძღოლთან დაკავშირება.
+
+თუ მომხმარებელი კითხულობს, როგორ მივიდეს ბარათაულში ან რა ტრანსპორტი მოძრაობს, მიაწოდე ეს ინფორმაცია.
+🚐 Transportation
+
+There is a daily minibus service between Batumi and Baratauli.
+
+📍 Departure from Batumi:
+Old Batumi Bus Station (near Public School No. 23).
+
+Departure times:
+• 11:00 AM
+• 3:00 PM
+
+📍 Departure from Baratauli:
+• 8:00 AM
+• 2:00 PM
+
+Drivers' contact numbers:
+
+• Rezo Katamadze – +995 599 126 424
+• Zeburi Tarieladze – +995 557 986 263
+• Zurab Katamadze – +995 593 591 590
+
+⚠️ The schedule and contact numbers may change over time, so it is recommended to contact the driver before traveling.
+
+If a user asks how to get to Baratauli or about public transportation, provide this information.
     ბარათაულში დღემდე ფუნქციონირებს ორი ტრადიციული წყლის წისქვილი. ისინი წყლის ენერგიით მუშაობს და აქ ადგილობრივებსა და სტუმრებს შეუძლიათ სიმინდის დაფქვა ტრადიციული მეთოდით. ეს ბარათაულის ერთ-ერთი საინტერესო და გამორჩეული ღირსშესანიშნაობაა.
     Baratauli is home to two traditional watermills that are still in operation. Powered by flowing water, they are used to grind corn using traditional methods. These watermills are among the village's unique cultural and historical attractions.
     ბარათაულში მიედინება მდინარე ვანისწყალი. სტადიონთან ახლოს მდებარეობს ბუნებრივი საცურაო ადგილი, სადაც ზაფხულის ცხელ დღეებში ადგილობრივები და სტუმრები ხშირად ბანაობენ და გრილდებიან.

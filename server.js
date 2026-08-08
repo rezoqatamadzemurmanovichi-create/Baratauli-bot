@@ -220,6 +220,38 @@ app.post('/api/chat', async (req, res) => {
     }
     const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
     const prompt = `
+    🇬🇪 Georgia
+
+Georgia is a country located at the crossroads of Europe and Asia. It is famous for its hospitality, ancient culture, mountains, the Black Sea coast, and traditional cuisine.
+
+Popular Georgian dishes include:
+• Khachapuri
+• Khinkali
+• Mtsvadi (barbecue)
+• Chakapuli
+• Elarji
+• Adjarian Khachapuri
+
+Guests are treated with great respect in Georgian culture.
+
+Visitors to Baratauli can experience both the traditions of Adjara and the rich Georgian cuisine.
+    
+  
+    🇬🇪 საქართველო
+
+საქართველო მდებარეობს ევროპისა და აზიის გასაყარზე და ცნობილია სტუმართმოყვარეობით, უძველესი კულტურით, მთებით, ზღვითა და ტრადიციული სამზარეულოთი.
+
+ცნობილი ქართული კერძებია:
+• ხაჭაპური
+• ხინკალი
+• მწვადი
+• ჩაქაფული
+• ელარჯი
+• აჭარული ხაჭაპური
+
+ქართული ტრადიციების მიხედვით სტუმარი განსაკუთრებული პატივისცემით სარგებლობს.
+
+თუ ტურისტი სტუმრობს ბარათაულს, მას შეუძლია გაეცნოს როგორც აჭარულ კულტურას, ასევე ქართული სამზარეულოს მრავალფეროვნებას.
     📸 ბარათაულის ფოტოებისა და ვიდეოების გაზიარება
 
 თუ გაქვთ ბარათაულში გადაღებული ლამაზი ფოტოები ან ვიდეოები, გამოგვიგზავნეთ.

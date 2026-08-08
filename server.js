@@ -255,6 +255,23 @@ Famous places in Georgia:
 
 Adjara is an autonomous region of Georgia.
 
+Main city: Batumi.
+
+Popular places in Adjara:
+- Batumi Boulevard
+- Batumi Botanical Garden
+- Machakhela National Park
+- Mtirala National Park
+- Goderdzi Pass
+
+Traditional Adjarian food:
+- Adjarian Khachapuri
+- Borano
+- Sinori
+
+Adjara is famous for its mountains, forests, waterfalls and the Black Sea coast.
+Adjara is an autonomous region of Georgia.
+
 Main city: Batumi
 
 Adjara is famous for:
@@ -316,6 +333,87 @@ Weather:
 - ბათუმი
 
 === ADJARA ===
+=== RIVERS OF ADJARA / აჭარის მდინარეები ===
+
+🇬🇪 ქართული
+
+აჭარა მდიდარია მდინარეებით, რომლებიც სათავეს კავკასიონისა და აჭარის მთებიდან იღებენ.
+
+აჭარის მთავარი მდინარეებია:
+
+- ჭოროხი — აჭარის უდიდესი მდინარე, რომელიც სათავეს თურქეთში იღებს და შავ ზღვას ერთვის.
+- აჭარისწყალი — ჭოროხის ერთ-ერთი მთავარი შენაკადი.
+- მაჭახელა — მიედინება მაჭახელას ხეობაში.
+- კინტრიში — ცნობილია ულამაზესი ბუნებითა და დაცული ტერიტორიებით.
+- ჩაქვისწყალი — მიედინება ჩაქვის ხეობაში.
+- ყოროლისწყალი — მიედინება ქობულეთის მუნიციპალიტეტში.
+- ბარცხანა — მცირე მდინარე ბათუმის ტერიტორიაზე.
+- ჩირუხისწყალი — მთიანი აჭარის ერთ-ერთი მდინარე.
+
+მდინარეები მნიშვნელოვან როლს ასრულებენ აჭარის ბუნებაში, სოფლის მეურნეობაში, ენერგეტიკასა და ტურიზმში.
+
+🇬🇧 English
+
+Adjara is rich in rivers that originate in the mountains of Adjara and the Caucasus region.
+
+Major rivers of Adjara include:
+
+- Chorokhi River – the largest river in Adjara, flowing into the Black Sea.
+- Acharistsqali River – one of the main tributaries of the Chorokhi.
+- Machakhela River – flows through the Machakhela Valley.
+- Kintrishi River – known for its beautiful natural surroundings and protected areas.
+- Chakvistsqali River – flows through the Chakvi Valley.
+- Qorolistsqali River – located in Kobuleti Municipality.
+- Bartskhana River – a small river flowing through Batumi.
+- Chirukhistsqali River – one of the rivers of mountainous Adjara.
+
+These rivers play an important role in nature, agriculture, hydroelectric power generation, and tourism in Adjara.
+=== UNIQUE MONUMENTS AND LANDMARKS OF ADJARA / აჭარის უნიკალური ძეგლები ===
+
+🇬🇪 ქართული
+
+აჭარაში მდებარეობს მრავალი ისტორიული და ბუნებრივი ღირსშესანიშნაობა:
+
+- გონიოს ციხე — ერთ-ერთი უძველესი ციხესიმაგრე საქართველოში, რომლის ისტორია 2000 წელზე მეტს ითვლის.
+- პეტრას ციხე — VI საუკუნის ბიზანტიური ციხესიმაგრე ციხისძირში.
+- ხიხანის ციხე — შუა საუკუნეების ციხე მაღალ მთაში, ზღვის დონიდან დაახლოებით 2200 მეტრზე.
+- სხალთის მონასტერი — XIII საუკუნის ქართული მართლმადიდებლური მონასტერი.
+- მახუნცეთის თაღოვანი ხიდი — შუა საუკუნეების ქვის ხიდი.
+- მახუნცეთის ჩანჩქერი — აჭარის ერთ-ერთი ყველაზე ცნობილი ჩანჩქერი.
+- თამარის ხიდები — ისტორიული ქვის ხიდები, რომლებიც აჭარის სხვადასხვა ხეობაში მდებარეობს.
+- ბათუმის ბოტანიკური ბაღი — მსოფლიოში ერთ-ერთი გამორჩეული ბოტანიკური ბაღი.
+- გოდერძის უღელტეხილი — მაღალმთიანი ტურისტული ადგილი ულამაზესი ხედებით.
+- მტირალას ეროვნული პარკი — უნიკალური ტყეებითა და ბიომრავალფეროვნებით.
+
+🇬🇧 English
+
+Adjara is home to many unique historical and natural landmarks:
+
+- Gonio Fortress – one of the oldest fortresses in Georgia, with a history of more than 2,000 years.
+- Petra Fortress – a Byzantine fortress dating back to the 6th century.
+- Khikhani Fortress – a medieval mountain fortress located at high altitude.
+- Skhalta Monastery – a 13th-century Georgian Orthodox monastery.
+- Makhuntseti Arch Bridge – a historic stone bridge from the medieval period.
+- Makhuntseti Waterfall – one of the most famous waterfalls in Adjara.
+- Queen Tamar Bridges – historic stone bridges found across Adjara.
+- Batumi Botanical Garden – one of the most remarkable botanical gardens in the world.
+- Goderdzi Pass – a beautiful mountain pass with spectacular landscapes.
+- Mtirala National Park – known for its rich biodiversity and ancient forests.
+აჭარა საქართველოს ავტონომიური რესპუბლიკაა.
+
+მთავარი ქალაქი: ბათუმი.
+
+ცნობილი ადგილები:
+- ბათუმის ბულვარი
+- ბათუმის ბოტანიკური ბაღი
+- მტირალას ეროვნული პარკი
+- მაჭახელას ეროვნული პარკი
+- გოდერძის უღელტეხილი
+
+ტრადიციული აჭარული კერძები:
+- აჭარული ხაჭაპური
+- ბორანო
+- სინორი
 
 აჭარა საქართველოს ავტონომიური რესპუბლიკაა.
 

@@ -252,6 +252,54 @@ Famous places in Georgia:
 - Batumi
 
 === ADJARA ===
+=== ADJARIAN TRADITIONS / აჭარული ტრადიციები ===
+
+🇬🇪 ქართული
+
+აჭარა გამოირჩევა მდიდარი კულტურითა და მრავალსაუკუნოვანი ტრადიციებით.
+
+აჭარული ტრადიციები მოიცავს:
+
+- სტუმართმოყვარეობა — სტუმრის პატივისცემა აჭარული კულტურის მნიშვნელოვანი ნაწილია.
+- ოჯახური ერთიანობა — ოჯახი და ნათესაური კავშირები განსაკუთრებულ მნიშვნელობას ატარებს.
+- ტრადიციული სუფრა — დღესასწაულებსა და განსაკუთრებულ დღეებში იმართება ქართული სუფრა.
+- ხალხური სიმღერები — აჭარა ცნობილია თავისი ფოლკლორითა და მრავალხმიანი სიმღერებით.
+- აჭარული ცეკვები — ენერგიული და გამორჩეული ეროვნული ცეკვები.
+- ტრადიციული სამოსი — აჭარას აქვს საკუთარი ისტორიული ტანსაცმლის ელემენტები.
+- სოფლის მეურნეობა — მეფუტკრეობა, მესაქონლეობა და მიწათმოქმედება დღემდე მნიშვნელოვანი საქმიანობაა.
+- ხალხური დღესასწაულები — სხვადასხვა კულტურული და რელიგიური დღესასწაულები მთელი წლის განმავლობაში აღინიშნება.
+
+🇬🇧 English
+
+Adjara is known for its rich culture and centuries-old traditions.
+
+Adjarian traditions include:
+
+- Hospitality – welcoming and respecting guests is an important part of local culture.
+- Family unity – strong family and community ties are highly valued.
+- Traditional feasts – Georgian supras are held during celebrations and special occasions.
+- Folk songs – Adjara is famous for its folklore and polyphonic singing.
+- Adjarian dances – energetic and unique traditional dances.
+- Traditional clothing – Adjara has its own historical clothing traditions.
+- Agriculture – beekeeping, livestock farming, and agriculture remain important activities.
+- Cultural festivals – various cultural and religious celebrations take place throughout the year.
+=== MOUNTAIN DESTINATIONS OF ADJARA / აჭარის სამთო მიმართულებები ===
+
+🇬🇪 ქართული
+
+- გოდერძი — აჭარის მთავარი სამთო კურორტი.
+- ბეშუმი — პოპულარული საზაფხულო კურორტი.
+- გომარდული — მაღალმთიანი ტურისტული ადგილი.
+- ბარათაული — ეკოტურიზმისა და ბუნების მოყვარულთათვის საინტერესო სოფელი.
+- ჯვარიმინდორი — ულამაზესი მაღალმთიანი ადგილი პანორამული ხედებით.
+
+🇬🇧 English
+
+- Goderdzi – the main mountain resort of Adjara.
+- Beshumi – a popular summer mountain resort.
+- Gomarduli – a beautiful highland tourist destination.
+- Baratauli – a mountain village ideal for eco-tourism and nature lovers.
+- Jvarimindori – a scenic highland area with panoramic mountain views.
 
 Adjara is an autonomous region of Georgia.
 
@@ -333,6 +381,45 @@ Weather:
 - ბათუმი
 
 === ADJARA ===
+=== RESORTS OF ADJARA / აჭარის კურორტები ===
+
+🇬🇪 ქართული
+
+აჭარა ცნობილია როგორც ზღვისპირა და მთის კურორტებით.
+
+ცნობილი კურორტებია:
+
+- ბათუმი — აჭარის მთავარი ტურისტული ქალაქი შავი ზღვის სანაპიროზე.
+- გონიო — ზღვისპირა კურორტი ისტორიული გონიოს ციხით.
+- კვარიათი — პოპულარული კურორტი სუფთა ზღვითა და მყვინთავობით.
+- სარფი — საქართველო-თურქეთის საზღვართან მდებარე ზღვისპირა კურორტი.
+- ჩაქვი — მწვანე ბუნებითა და ჩაის პლანტაციებით ცნობილი კურორტი.
+- ციხისძირი — ზღვისპირა დასასვენებელი ადგილი პეტრას ციხესთან.
+- მახინჯაური — ბათუმთან ახლოს მდებარე კურორტი.
+- ქობულეთი — ერთ-ერთი ყველაზე ცნობილი ზღვისპირა კურორტი საქართველოში.
+- ბეშუმი — მაღალმთიანი საზაფხულო კურორტი სუფთა ჰაერითა და ულამაზესი ხედებით.
+- გოდერძი — მთის კურორტი, რომელიც ცნობილია ზამთრის სპორტითა და ბუნებით.
+
+აჭარაში შესაძლებელია როგორც ზღვის, ისე მთის ტურიზმით ერთდროულად სარგებლობა.
+
+🇬🇧 English
+
+Adjara is famous for both seaside and mountain resorts.
+
+Popular resorts include:
+
+- Batumi – the main tourist city of Adjara on the Black Sea coast.
+- Gonio – a seaside resort known for the historic Gonio Fortress.
+- Kvariati – a popular resort with clear water and diving opportunities.
+- Sarpi – a seaside resort located near the Georgia–Turkey border.
+- Chakvi – known for its green landscapes and tea plantations.
+- Tsikhisdziri – a coastal resort near the historic Petra Fortress.
+- Makhinjauri – a resort area located near Batumi.
+- Kobuleti – one of the most famous seaside resorts in Georgia.
+- Beshumi – a mountain summer resort with fresh air and beautiful scenery.
+- Goderdzi – a mountain resort famous for winter sports and natural beauty.
+
+Visitors to Adjara can enjoy both seaside and mountain tourism in the same region.
 === RIVERS OF ADJARA / აჭარის მდინარეები ===
 
 🇬🇪 ქართული

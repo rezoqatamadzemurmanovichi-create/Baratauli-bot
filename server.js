@@ -252,6 +252,258 @@ Famous places in Georgia:
 - Batumi
 
 === ADJARA ===
+
+=== HISTORY OF ADJARA / აჭარის ისტორია ===
+
+🇬🇪 ქართული
+
+აჭარა საქართველოს ერთ-ერთი უძველესი ისტორიული რეგიონია.
+
+რეგიონი დასახლებული იყო უძველესი დროიდან და კოლხეთის სამეფოს ნაწილი იყო.
+
+ისტორიის განმავლობაში აჭარა შედიოდა სხვადასხვა ქართული სამეფოსა და სამთავროს შემადგენლობაში.
+
+XVI საუკუნიდან რეგიონი ოსმალეთის იმპერიის გავლენის ქვეშ მოექცა.
+
+1878 წელს, ბერლინის კონგრესის გადაწყვეტილებით, აჭარა ოსმალეთის იმპერიიდან საქართველოს დაუბრუნდა.
+
+1921 წელს შეიქმნა აჭარის ავტონომიური რესპუბლიკა.
+
+დღეს აჭარა საქართველოს ავტონომიური რესპუბლიკაა, რომელიც გამოირჩევა მდიდარი კულტურით, ისტორიული მემკვიდრეობითა და ბუნებრივი სილამაზით.
+
+🇬🇧 English
+
+Adjara is one of the oldest historical regions of Georgia.
+
+The region has been inhabited since ancient times and was part of the Kingdom of Colchis.
+
+Throughout history, Adjara was part of various Georgian kingdoms and principalities.
+
+In the 16th century, the region came under the influence of the Ottoman Empire.
+
+In 1878, following the decisions of the Congress of Berlin, Adjara was returned from the Ottoman Empire to Georgia.
+
+In 1921, the Autonomous Republic of Adjara was established.
+
+Today, Adjara is an autonomous republic of Georgia, known for its rich culture, historical heritage, and natural beauty.
+=== POPULATION OF ADJARA / აჭარის მოსახლეობა ===
+
+🇬🇪 ქართული
+
+აჭარის ავტონომიურ რესპუბლიკაში ცხოვრობს დაახლოებით 350,000–370,000 ადამიანი.
+
+მთავარი ქალაქი:
+- ბათუმი
+
+მუნიციპალიტეტები:
+- ბათუმი
+- ქობულეთი
+- ხელვაჩაური
+- ქედა
+- შუახევი
+- ხულო
+
+აჭარის მოსახლეობა ცხოვრობს როგორც ზღვისპირა, ისე მაღალმთიან სოფლებში.
+
+რეგიონი გამოირჩევა მრავალსაუკუნოვანი კულტურით, ტრადიციებითა და სტუმართმოყვარეობით.
+
+🇬🇧 English
+
+The Autonomous Republic of Adjara has a population of approximately 350,000–370,000 people.
+
+Main city:
+- Batumi
+
+Municipalities:
+- Batumi
+- Kobuleti
+- Khelvachauri
+- Keda
+- Shuakhevi
+- Khulo
+
+People in Adjara live both along the Black Sea coast and in mountainous villages.
+
+The region is known for its rich culture, traditions, and hospitality.
+🇬🇪 ქართული
+
+აჭარა ერთ-ერთი საუკეთესო ადგილია ლაშქრობისთვის.
+
+პოპულარული მარშრუტები:
+- გოდერძი – მწვანე ტბა
+- ხიხანის ციხე
+- ჩირუხი
+- მაჭახელას ხეობა
+- მტირალას ეროვნული პარკი
+
+🇬🇧 English
+
+Adjara is one of the best regions in Georgia for hiking.
+
+Popular routes:
+- Goderdzi – Green Lake
+- Khikhani Fortress
+- Chirukhi Mountain
+- Machakhela Valley
+- Mtirala National Park
+🇬🇪 ქართული
+
+აჭარაში მდებარეობს მრავალი ულამაზესი მთა და ქედი.
+
+- გოდერძის უღელტეხილი
+- ჩირუხი
+- ხიხანი
+- მწვანე ტბის მიმდებარე მთები
+- შავშეთის ქედი
+
+🇬🇧 English
+
+Adjara is home to many beautiful mountains and mountain ranges.
+
+- Goderdzi Pass
+- Chirukhi Mountain
+- Khikhani Mountain
+- Mountains around Green Lake
+- Shavsheti Range
+=== WATERFALLS OF ADJARA / აჭარის ჩანჩქერები ===
+
+🇬🇪 ქართული
+
+ცნობილი ჩანჩქერები:
+
+- მახუნცეთის ჩანჩქერი
+- მირვეთის ჩანჩქერი
+- თხილნარის ჩანჩქერი
+- ჩხუტუნეთის ჩანჩქერი
+
+🇬🇧 English
+
+Famous waterfalls in Adjara:
+
+- Makhuntseti Waterfall
+- Mirveti Waterfall
+- Tkhilnari Waterfall
+- Chkhutuneti Waterfall
+=== PROTECTED AREAS OF ADJARA / აჭარის დაცული ტერიტორიები ===
+
+🇬🇪 ქართული
+
+აჭარა ცნობილია თავისი დაცული ტერიტორიებითა და უნიკალური ბუნებით.
+
+- მტირალას ეროვნული პარკი — ერთ-ერთი ყველაზე ნოტიო ადგილი საქართველოში.
+- მაჭახელას ეროვნული პარკი — ცნობილია უძველესი ტყეებითა და მდიდარი ბიომრავალფეროვნებით.
+- კინტრიშის დაცული ტერიტორია — გამორჩეულია კოლხური ტყეებითა და იშვიათი მცენარეებით.
+- ქობულეთის დაცული ტერიტორია — უნიკალური ჭაობური ეკოსისტემა.
+
+🇬🇧 English
+
+Adjara is famous for its protected areas and unique natural environment.
+
+- Mtirala National Park – one of the wettest places in Georgia.
+- Machakhela National Park – known for ancient forests and rich biodiversity.
+- Kintrishi Protected Areas – famous for Colchic forests and rare plant species.
+- Kobuleti Protected Areas – a unique wetland ecosystem.
+=== PLANTS AND WILDLIFE OF ADJARA / აჭარის მცენარეები და ცხოველები ===
+
+🇬🇪 ქართული
+
+აჭარა ცნობილია მდიდარი ბუნებით, ტყეებითა და მრავალფეროვანი ცხოველური სამყაროთი.
+
+🌿 მცენარეები
+
+აჭარაში გავრცელებულია:
+
+- წაბლი
+- წიფელი
+- მუხა
+- ნაძვი
+- სოჭი
+- რცხილა
+- ცაცხვი
+- როდოდენდრონი
+- მოცვი
+- მაყვალი
+- ჟოლო
+- მანდარინი
+- ფორთოხალი
+- ლიმონი
+- ჩაი
+
+🐻 ცხოველები
+
+აჭარის ტყეებსა და მთებში ბინადრობენ:
+
+- მურა დათვი
+- მგელი
+- მელა
+- ტურა
+- გარეული ღორი
+- შველი
+- კურდღელი
+- კვერნა
+- მაჩვი
+- ციყვი
+
+🦅 ფრინველები
+
+- ოქროს არწივი
+- ქორი
+- მიმინო
+- ბუ
+- კოდალა
+- შაშვი
+
+აჭარა ერთ-ერთი ყველაზე მდიდარი რეგიონია საქართველოში ბიომრავალფეროვნებით.
+
+🇬🇧 English
+
+Adjara is known for its rich forests, mountains, and diverse wildlife.
+
+🌿 Plants
+
+Common plants found in Adjara include:
+
+- Chestnut
+- Beech
+- Oak
+- Spruce
+- Fir
+- Hornbeam
+- Linden
+- Rhododendron
+- Blueberry
+- Blackberry
+- Raspberry
+- Mandarin
+- Orange
+- Lemon
+- Tea
+
+🐻 Mammals
+
+The forests and mountains of Adjara are home to:
+
+- Brown Bear
+- Wolf
+- Fox
+- Golden Jackal
+- Wild Boar
+- Roe Deer
+- Hare
+- Marten
+- Badger
+- Squirrel
+
+🦅 Birds
+
+- Golden Eagle
+- Hawk
+- Sparrowhawk
+- Owl
+- Woodpecker
+- Blackbird
+
+Adjara is one of the richest regions in Georgia in terms of biodiversity.
 === ADJARIAN TRADITIONS / აჭარული ტრადიციები ===
 
 🇬🇪 ქართული

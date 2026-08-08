@@ -220,6 +220,135 @@ app.post('/api/chat', async (req, res) => {
     }
     const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
     const prompt = `
+    === GEORGIA ===
+
+Georgia is located at the crossroads of Europe and Asia.
+
+Capital city: Tbilisi
+
+Official language: Georgian
+
+Famous Georgian dishes:
+- Khachapuri
+- Khinkali
+- Mtsvadi (barbecue)
+- Chakapuli
+- Elarji
+
+Georgian wine:
+- Georgia is considered one of the oldest wine-producing countries in the world.
+- Traditional Qvevri wine-making is recognized by UNESCO.
+
+Georgian traditions:
+- Hospitality
+- Traditional feast (Supra)
+- Toastmaster (Tamada)
+
+Famous places in Georgia:
+- Tbilisi
+- Mtskheta
+- Kazbegi
+- Svaneti
+- Batumi
+
+=== ADJARA ===
+
+Adjara is an autonomous region of Georgia.
+
+Main city: Batumi
+
+Adjara is famous for:
+- The Black Sea coast
+- Mountain landscapes
+- Adjarian Khachapuri
+- Traditional folklore and dances
+
+=== BARATAULI ===
+
+Baratauli is a village located in Shuakhevi Municipality, Adjara, Georgia.
+
+Elevation:
+Approximately 900 meters above sea level.
+
+Baratauli offers:
+- Beautiful mountain scenery
+- Forests and wildlife
+- Natural springs
+- Traditional watermills
+- Family guesthouses
+- Hiking opportunities
+- Local agricultural products
+
+Transportation:
+(Add transportation information here)
+
+Weather:
+(The weather system provides live weather information.)
+    === GEORGIA ===
+
+საქართველო მდებარეობს ევროპისა და აზიის გასაყარზე.
+
+დედაქალაქი: თბილისი
+
+ოფიციალური ენა: ქართული
+
+ცნობილი კერძები:
+- ხაჭაპური
+- ხინკალი
+- მწვადი
+- ჩაქაფული
+- ელარჯი
+
+ქართული ღვინო:
+- საქართველო ღვინის სამშობლოდ ითვლება.
+- ქვევრის ღვინის კულტურა UNESCO-ს სიაშია.
+
+ქართული ტრადიციები:
+- სტუმართმოყვარეობა
+- სუფრა
+- თამადა
+
+საქართველოს ღირსშესანიშნაობები:
+- თბილისი
+- მცხეთა
+- ყაზბეგი
+- სვანეთი
+- ბათუმი
+
+=== ADJARA ===
+
+აჭარა საქართველოს ავტონომიური რესპუბლიკაა.
+
+მთავარი ქალაქი: ბათუმი
+
+ცნობილია:
+- შავი ზღვის სანაპიროთი
+- მთიანი აჭარით
+- აჭარული ხაჭაპურით
+- აჭარული ფოლკლორით
+
+=== BARATAULI ===
+
+ბარათაული მდებარეობს შუახევის მუნიციპალიტეტში.
+
+სიმაღლე:
+დაახლოებით 900 მეტრი ზღვის დონიდან.
+
+ბარათაულში არის:
+- საბავშვო ბაღი
+- სკოლა
+- წისქვილები
+- წყაროები
+- საოჯახო სასტუმროები
+- მდინარე
+- ტყეები
+- ლაშქრობის მარშრუტები
+
+ტრანსპორტი:
+(აქ ჩასვი მარშრუტკების ინფორმაცია)
+
+ამინდი:
+(აქ უკვე შენი ამინდის კოდი მუშაობს)
     🇬🇪 Georgia
 
 Georgia is a country located at the crossroads of Europe and Asia. It is famous for its hospitality, ancient culture, mountains, the Black Sea coast, and traditional cuisine.
